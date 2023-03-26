@@ -1,0 +1,235 @@
+:root {
+	--rosa:#1a186e;
+	--azul:rgb(255, 0, 0);
+	--cinza:rgb(255, 255, 255);
+
+}
+h1 {
+	color: var(--rosa);
+	font-family: 'Pattaya', sans-serif;
+}
+h2,h3 {
+	color: var(--rosa);
+	font-family: 'Arial black', Times , sans-serif;
+}
+
+
+
+/* Logo */
+header .container .logo img {
+  width: 40%;
+  height: 20%;
+}
+
+/*botão*/
+header .container .btn a{
+   font-size: 17px;
+   text-decoration: none; 
+   -webkit-text-stroke-width: 1px; 
+   -webkit-text-stroke-color: #000;
+}
+header .container .btn {
+    width: 800px;
+    height: 50px;
+	border-color: red;	
+	border-radius: 120px;
+}
+
+/* Barra de navegação */
+header .nav-link h1 {
+    font-size: 20px;
+    margin-right: 7px;
+}
+header .nav-link h1:hover {
+   color:var(--azul);
+}
+
+/***********************/
+/****Página inicial*****/
+/**********************/
+.col-lg-4 img {
+    width: 400px;
+    height: 250px;
+}
+
+/***********************/
+/****Acesso*************/
+/**********************/
+.fundo-cadastro {
+	background-image:url("../img/background/loginP.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	width: 100%;
+	height: 800px;
+}
+/* Fim */
+
+/*Inscrições Abertas */
+.InscriA a {
+ text-decoration: none;
+
+}
+
+/* Em Andamento */
+.Andamento tr {
+	display: inline-block;
+}
+.Andamento a {
+	text-decoration: none;
+}
+
+/*Postagens no site */
+.postagemCa1 img {
+	margin-left: 20px;
+	width: 100px;
+	height: 100px;
+}
+
+/* Login e senha */
+.Acessodosite {
+	margin-left: 20px;
+}
+
+/* Inscrição */
+.Insc td{
+	text-align: left;
+	
+}
+.needs-validation {
+	padding-left: 3%;
+	
+}
+
+
+/***********************/
+/****Contatos*****/
+/**********************/
+.fundo-contato {
+	background-image: url("../img/background/contatos.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	width: 100%;
+	height: 800px;
+}
+
+/* Postagens */
+#postagemC1 {
+	background-color: darkblue;
+	width: 100%;
+	display: table;
+}
+#postagemC1 h1{
+	color: orangered;
+	font-family: Samanata, sans-serif;
+	text-align: center;
+}
+
+/* concursos */
+#Concursos{
+	background-color: darkblue;
+	width: 100%;
+	display: table;
+}
+#Concursos h1 {
+	color: white;
+	font-family: monospace, sans-serif;
+	text-align: center;
+	text-shadow: 5px 2px 2px black;
+}
+
+/* background do site */
+#fundo {
+	width: 100%;
+	display: flex;
+}
+/*Fim*/
+
+/***********************/
+/****Eventos*****/
+/**********************/
+.fundo-eventos {
+	background-image: url("https://images.pexels.com/photos/919734/pexels-photo-919734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	width: 100%;
+	height: 800px;
+}
+
+/*Postagens no site */
+#postagemE1 {
+	background-color: yellow;
+	width: 100%;
+	display: table;
+}
+#postagemE1 h1{
+	color: darkblue;
+	text-align: center;
+}
+
+/* Background do site */
+#fundo {
+	width: 100%;
+	display: flex;
+}
+/*  Fim  */
+
+/***********************/
+/****Serviços*****/
+/**********************/
+.fundo-serviços{
+	background-image: url("../img/background/serviços.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	width: 100%;
+	height: 800px;
+}
+/* Postagens do site */
+#postagemS1 {
+	background-color: yellow;
+	width: 100%;
+	display: table;
+}
+#postagemS1 h1{
+	color: orangered;
+	font-family: Samanata , sans-serif;
+	text-align: center;
+}
+/* Background do site */
+#fundo {
+	width: 100%;
+	display: flex;
+}
+/*  Fim  */
+
+/***********************/
+/****Viagens*****/
+/**********************/
+.fundo-viagens{
+	background-image: url("../img/background/viagens.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	width: 100%;
+	height: 800px;
+}
+/* Postagens */
+#postagemV1 {
+	background-color: cadetblue;
+	width: 100%;
+	display: table;
+}
+#postagemV1 h1{
+	color: orangered;
+	font-family: Samanata, sans-serif;
+	text-align: center;
+}
+/* background do site */
+#fundo {
+	width: 100%;
+	display: flex;
+}
+/* Fim */
