@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <!-- Icone e título-->
     <title>IAUPE CONCURSOS</title>
@@ -22,8 +24,16 @@
 <body>
 
     <header>
+
+      
+      
+
         <!-- Menu das URLs -->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light">   
+
+            <!-- logo atual -->
+        <a class="logo" href="index.html">
+          <img src="./img/Logos/UPENET.png"> </a>
 
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
@@ -54,18 +64,24 @@
                     <a class="nav-link" href="./pages/contatos.html">
                     <h1>Contatos</h1></a>
                   </li>
+                  
               </div>
+              <form method="get" action="pesquisar.php" class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" name="q" placeholder="Concursos..."
+                 aria-label="Search" type="submit">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+              </form>
             </div>
 
-            <div class="container">
-           <!-- logo atual -->
-           <a class="logo" href="index.html">
-          <img src="./img/Logos/Logo Concursos .png"> </a> 
-           <!-- Área de acesso -->
-           <button class="btn"><a href="./pages/acesso.html">
-          <strong>Acesso</strong></a>
-          </button>
-        </div>
+            <form method="get" action="pesquisar.php">
+              <input type="text" name="q">
+              <input type="submit" value="Pesquisar">
+            </form>
+
+
+           
+
+
           </nav>		
 </header>
 
@@ -88,7 +104,7 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-       <a href="">
+       <a href="#">
         <img src="./img/banners/LB1.png" class="d-block w-100" alt="..."></a>
       </div>
       <div class="carousel-item">
@@ -96,19 +112,19 @@
         <img src="./img/banners/LB2.png" class="d-block w-100" alt="Concurso Abreu e Lima 2023"> </a>
       </div>
       <div class="carousel-item">
-        <a href="">
+        <a href="#">
         <img src="./img/banners/LB3.png" class="d-block w-100" alt="..."></a>
       </div>
       <div class="carousel-item">
-        <a href="">
+        <a href="#">
         <img src="./img/banners/LB4.png" class="d-block w-100" alt="..."></a>
       </div>
       <div class="carousel-item">
-        <a href="">
+        <a href="#">
         <img src="./img/banners/LB5.png" class="d-block w-100" alt="..."></a>
       </div>
       <div class="carousel-item">
-        <a href="">
+        <a href="#">
         <img src="./img/banners/LB6.png" class="d-block w-100" alt="..."></a>
       </div>
     </div>
@@ -137,7 +153,7 @@
         <img src="./img/banners/conteudo/funcionários.png" class="card-img-top" alt="...">
         <h2>Seja bem vindo!</h2>
         <p>Nós temos o compromisso de
-            levar </p> <p>os nossos associados <p>para
+            levar </p> <p>aos nossos Clientes <p>
             o mundo digital! </p>
         <p><a class="btn btn-primary btn-sm" href="#">Clique e saiba mais &raquo;</a></p>
       </div>
